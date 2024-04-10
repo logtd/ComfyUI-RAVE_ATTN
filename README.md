@@ -1,4 +1,4 @@
-# ComfyUI-RAVE
+# ComfyUI-RAVE Attention
 ComfyUI nodes to use RAVE attention as a temporal attention mechanism.
 
 This differs from other implementations in that it does not concatenate the images together, but within the UNet's Self-Attention mechanism performs the RAVE technique.
