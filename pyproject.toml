@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-rave_attn"
+description = ""
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/logtd/ComfyUI-RAVE_ATTN"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-RAVE_ATTN"
+Icon = ""
