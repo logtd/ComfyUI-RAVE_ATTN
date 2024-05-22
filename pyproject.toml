@@ -1,6 +1,6 @@
 [project]
 name = "comfyui-rave_attn"
-description = ""
+description = "ComfyUI nodes to use RAVE attention as a temporal attention mechanism.\nThis differs from other implementations in that it does not concatenate the images together, but within the UNet's Self-Attention mechanism performs the RAVE technique. By not altering the images/latents throughout the UNet, this method does not affect other temporal techniques, style mechanisms, or other UNet modifications.\nFor example, it can be combined with AnimateDiff, ModelScope/ZeroScope, or FLATTEN."
 version = "1.0.0"
 license = "LICENSE"
 
